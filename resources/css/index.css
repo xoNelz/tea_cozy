@@ -1,0 +1,149 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+header nav {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+header li {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+header a {
+  color: seashell;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sub_background {
+  background-image: url("../images/mission_background.jpg");
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+
+.mission {
+  color: white;
+  width: 100%;
+  text-align: left;
+  margin-top: 400px;
+  height: 15%;
+  font-family: Helvetica;
+  background-color: black;
+  text-align: center;
+}
+
+.mission h2, h4 {
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.mission h4 {
+  margin-top: 15px;
+}
+
+.the_month {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.the_month h2, h4 {
+  margin-bottom: 10px;
+}
+
+.tea_category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexcat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.category img{
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px;
+}
+
+.category h3 {
+  margin-top: 10px;
+}
+
+.locations{
+  background-image: url("../images/location_background.jpg");
+  width: 1200px;
+  height: 570px;
+  margin-top: 60px;
+  padding-top: 25px;
+}
+
+.location_text {
+  display: flex;
+  justify-content: center;
+}
+
+.buildings {
+  display: flex;
+  justify-content: center;
+}
+
+.loc_description {
+  background-color: black;
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 300px;
+  opacity: 1;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+footer h2, h5 {
+  padding-bottom: 15px;
+}
+
+footer .foot {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
