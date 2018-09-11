@@ -30,6 +30,7 @@ header nav {
 header li {
   display: inline-block;
   text-decoration: underline;
+  margin: 0 10px;
 }
 
 header a {
